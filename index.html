@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="table.js">
+
+    </script>
+  </head>
+  <body>
+    <wm-table
+      title="Tabla web component"
+      headings='["Nombre", "Edad", "Género", "Peso", "F. Nacimiento", "Ciudad", "Región", "País"]'
+      fields='["name", "age", "gender", "weight", "birthday", "city", "region", "country"]'
+      types='["string", "int", "string", "float", "datetime", "string", "string", "string"]'
+      hiddens='[0,0,0,0,0,0,0,0]'
+      alldata='[{"name": "pere","age": 30, "gender": "Hombre", "weight": 80, "birthday":"05/24/1980", "city": "Valencia", "region": "Valencia", "country": "España"},{"name": "Lluis","age": 32, "gender": "Hombre", "weight": 100, "birthday":"06/24/1983", "city": "Alboraya", "region": "Valencia", "country": "España"},{"name": "Maria","age": 36, "gender": "Mujer", "weight": 56.8, "birthday":"05/24/1980", "city": "Valencia", "region": "Valencia", "country": "España"}]'
+      pagination="2"
+    ></wm-table>
+  </body>
+</html>
